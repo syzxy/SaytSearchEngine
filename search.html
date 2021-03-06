@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Wikidata(NOT)</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="/js/main.js"></script>
+  </head>
+  <body>
+    <div id="home_wrapper">
+      <div class="header_wrapper">
+        <header id="header">Header</header>
+      </div>
+      <main>
+        <div id="main_wrapper">
+          <h1 id="welcome">No no it's not Wikidata</h1>
+          <form id="search_bar_home" action="search.html" method="get">
+            <span class="material-icons">search</span>
+            <input class="search_box" type="text" placeholder="Search mate..." name="q" autofocus autocomplete="off"/>
+          </form>
+          <div class="results">
+            <p id="query_display">Query: %QUERY%</p>
+            <p>Results:</p>
+            <p id="results_display">%RESULTS%</p>
+          </div>
+        </div>
+      </main>
+      <footer id="footer">Footer</footer>
+    </div>
+  </body>
+</html>
